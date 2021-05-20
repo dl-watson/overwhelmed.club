@@ -3,42 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>Be Good to Yrself (OG)</title>
+<title>Be Good to Yrself (Dee)</title>
 <style title="Twine CSS">@keyframes appear{0%{opacity:0}to{opacity:1}}@keyframes fade-in-out{0%,to{opacity:0}50%{opacity:1}}@keyframes rumble{25%{top:-0.1em}75%{top:0.1em}0%,to{top:0px}}@keyframes shudder{25%{left:0.1em}75%{left:-0.1em}0%,to{left:0px}}@keyframes buoy{25%{top:0.25em}75%{top:-0.25em}0%,to{top:0px}}@keyframes sway{25%{left:0.25em}75%{left:-0.25em}0%,to{left:0px}}@keyframes pulse{0%{transform:scale(0, 0)}20%{transform:scale(1.2, 1.2)}40%{transform:scale(0.9, 0.9)}60%{transform:scale(1.05, 1.05)}80%{transform:scale(0.925, 0.925)}to{transform:scale(1, 1)}}@keyframes zoom-in{0%{transform:scale(0, 0)}to{transform:scale(1, 1)}}@keyframes shudder-in{0%, to{transform:translateX(0em)}5%, 25%, 45%{transform:translateX(-1em)}15%, 35%, 55%{transform:translateX(1em)}65%{transform:translateX(-0.6em)}75%{transform:translateX(0.6em)}85%{transform:translateX(-0.2em)}95%{transform:translateX(0.2em)}}@keyframes rumble-in{0%, to{transform:translateY(0em)}5%, 25%, 45%{transform:translateY(-1em)}15%, 35%, 55%{transform:translateY(1em)}65%{transform:translateY(-0.6em)}75%{transform:translateY(0.6em)}85%{transform:translateY(-0.2em)}95%{transform:translateY(0.2em)}}@keyframes fidget{0%, 8.1%, 82.1%, 31.1%, 38.1%, 44.1%, 40.1%, 47.1%, 74.1%, 16.1%, 27.1%, 72.1%, 24.1%, 95.1%, 6.1%, 36.1%, 20.1%, 4.1%, 91.1%, 14.1%, 87.1%, to{left:0px;top:0px}8%, 82%, 31%, 38%, 44%{left:-1px}40%, 47%, 74%, 16%, 27%{left:1px}72%, 24%, 95%, 6%, 36%{top:-1px}20%, 4%, 91%, 14%, 87%{top:1px}}@keyframes slide-right{0%{transform:translateX(-100vw)}}@keyframes slide-left{0%{transform:translateX(100vw)}}@keyframes slide-up{0%{transform:translateY(100vh)}}@keyframes slide-down{0%{transform:translateY(-100vh)}}@keyframes fade-right{0%{opacity:0;transform:translateX(-1em)}to{opacity:1}}@keyframes fade-left{0%{opacity:0;transform:translateX(1em)}to{opacity:1}}@keyframes fade-up{0%{opacity:0;transform:translateY(1em)}to{opacity:1}}@keyframes fade-down{0%{opacity:0;transform:translateY(-1em)}to{opacity:1}}@keyframes flicker{0%,29%,31%,63%,65%,77%,79%,86%,88%,91%,93%{opacity:0}30%{opacity:0.2}64%{opacity:0.4}78%{opacity:0.6}87%{opacity:0.8}92%, to{opacity:1}}@keyframes blur{0%{filter:blur(2rem);opacity:0}25%{opacity:1}to{filter:blur(0rem);opacity:1}}.dom-debug-mode tw-story,.dom-debug-mode tw-passage,.dom-debug-mode tw-sidebar,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{outline:1px solid #f5a3da;min-height:32px;display:block !important}.dom-debug-mode tw-story::before,.dom-debug-mode tw-passage::before,.dom-debug-mode tw-sidebar::before,.dom-debug-mode tw-include::before,.dom-debug-mode tw-hook::before,.dom-debug-mode tw-expression::before,.dom-debug-mode tw-link::before,.dom-debug-mode tw-dialog::before,.dom-debug-mode tw-columns::before,.dom-debug-mode tw-column::before,.dom-debug-mode tw-align::before{position:absolute;top:0;left:0;height:16px;background-color:#f5a3da;color:black;font-size:16px;font-weight:normal;font-style:normal;font-family:monospace;display:inline-block;line-height:100%;white-space:pre;z-index:999997}.dom-debug-mode tw-story:hover,.dom-debug-mode tw-passage:hover,.dom-debug-mode tw-sidebar:hover,.dom-debug-mode tw-include:hover,.dom-debug-mode tw-hook:hover,.dom-debug-mode tw-expression:hover,.dom-debug-mode tw-link:hover,.dom-debug-mode tw-dialog:hover,.dom-debug-mode tw-columns:hover,.dom-debug-mode tw-column:hover,.dom-debug-mode tw-align:hover{outline:1px solid #fc9}.dom-debug-mode tw-story:hover::before,.dom-debug-mode tw-passage:hover::before,.dom-debug-mode tw-sidebar:hover::before,.dom-debug-mode tw-include:hover::before,.dom-debug-mode tw-hook:hover::before,.dom-debug-mode tw-expression:hover::before,.dom-debug-mode tw-link:hover::before,.dom-debug-mode tw-dialog:hover::before,.dom-debug-mode tw-columns:hover::before,.dom-debug-mode tw-column:hover::before,.dom-debug-mode tw-align:hover::before{background-color:#fc9;transition:background-color 1s}.dom-debug-mode tw-passage,.dom-debug-mode tw-include,.dom-debug-mode tw-hook,.dom-debug-mode tw-expression,.dom-debug-mode tw-link,.dom-debug-mode tw-dialog,.dom-debug-mode tw-columns,.dom-debug-mode tw-column,.dom-debug-mode tw-align{padding:1em;margin:0}.dom-debug-mode tw-story::before{content:'<tw-story tags="' attr(tags) '">'}.dom-debug-mode tw-passage::before{top:-16px;content:'<tw-passage tags="' attr(tags) '">'}.dom-debug-mode tw-sidebar::before{top:-16px;content:"<tw-sidebar>"}.dom-debug-mode tw-hook::before{content:'<tw-hook name="' attr(name) '">'}.dom-debug-mode tw-expression::before{content:'<tw-expression name="' attr(name) '">'}.dom-debug-mode tw-link::before{content:'<tw-link name="' attr(name) '">'}.dom-debug-mode tw-dialog::before{content:"<tw-dialog>"}.dom-debug-mode tw-columns::before{content:"<tw-columns>"}.dom-debug-mode tw-column::before{content:"<tw-column>"}.dom-debug-mode tw-align::before{content:"<tw-align>"}.dom-debug-mode tw-include::before{content:'<tw-include type="' attr(type) '" title="' attr(title) '">'}.debug-mode tw-expression{display:inline-block !important}.debug-mode tw-expression[type=variable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"$" attr(name)}.debug-mode tw-expression[type=tempVariable]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"_" attr(name)}.debug-mode tw-expression[return=boolean]{background-color:rgba(179,179,179,0.2)}.debug-mode tw-expression[return=array]{background-color:rgba(255,102,102,0.2)}.debug-mode tw-expression[return=dataset]{background-color:rgba(255,128,0,0.2)}.debug-mode tw-expression[return=number]{background-color:rgba(255,179,102,0.2)}.debug-mode tw-expression[return=datamap]{background-color:rgba(255,255,102,0.2)}.debug-mode tw-expression[return=changer]{background-color:rgba(179,255,102,0.2)}.debug-mode tw-expression[return=lambda]{background-color:rgba(102,255,102,0.2)}.debug-mode tw-expression[return=hookname]{background-color:rgba(102,255,204,0.2)}.debug-mode tw-expression[return=string]{background-color:rgba(102,255,255,0.2)}.debug-mode tw-expression[return=datatype]{background-color:rgba(102,153,255,0.2)}.debug-mode tw-expression[return=gradient],.debug-mode tw-expression[return=colour]{background-color:rgba(204,102,255,0.2)}.debug-mode tw-expression[return=instant],.debug-mode tw-expression[return=macro]{background-color:rgba(240,117,199,0.2)}.debug-mode tw-expression[return=command]{background-color:rgba(153,153,255,0.2)}.debug-mode tw-expression.false{background-color:rgba(255,0,0,0.2) !important}.debug-mode tw-expression[type=macro]::before{content:"(" attr(name) ":)";padding:0 0.5rem;font-size:1rem;vertical-align:middle;line-height:normal;background-color:inherit;border:1px solid rgba(255,255,255,0.5)}.debug-mode tw-hook{background-color:rgba(0,85,255,0.1) !important}.debug-mode tw-hook::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"["}.debug-mode tw-hook::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]"}.debug-mode tw-hook[name]::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"]<" attr(name) "|"}.debug-mode tw-pseudo-hook{background-color:rgba(255,170,0,0.1) !important}.debug-mode tw-collapsed::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"{"}.debug-mode tw-collapsed::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"}"}.debug-mode tw-verbatim::before,.debug-mode tw-verbatim::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:"`"}.debug-mode tw-align[style*="text-align: center"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 50%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: left"]{background:linear-gradient(to right, rgba(255,204,189,0.25) 0%, rgba(255,204,189,0) 100%)}.debug-mode tw-align[style*="text-align: right"]{background:linear-gradient(to right, rgba(255,204,189,0) 0%, rgba(255,204,189,0.25) 100%)}.debug-mode tw-column{background-color:rgba(189,228,255,0.2)}.debug-mode tw-enchantment{animation:enchantment 0.5s infinite;border:1px solid}.debug-mode tw-link::after,.debug-mode tw-broken-link::after{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(passage-name)}.debug-mode tw-include{background-color:rgba(204,128,51,0.1)}.debug-mode tw-include::before{font-size:0.8rem;padding-left:0.2rem;padding-right:0.2rem;vertical-align:top;content:attr(type) ' "' attr(title) '"'}@keyframes enchantment{0%,to{border-color:#ffb366}50%{border-color:#6fc}}tw-debugger{position:fixed;box-sizing:border-box;bottom:0;right:0;z-index:999999;min-width:10em;min-height:1em;padding:0em 0.5em 0.5em 1em;font-size:1.25em;font-family:sans-serif;color:#000;border-left:solid #000 2px;border-top:solid #000 2px;border-top-left-radius:.5em;background:#fff;opacity:1}tw-debugger select{margin-right:1em;width:12em}tw-debugger button{border-radius:3px;border:solid #999 1px;margin:auto 4px;background-color:#fff;font-size:inherit;color:#000}tw-debugger button.enabled{background-color:#eee;box-shadow:inset #ddd 3px 5px 0.5em}tw-debugger .panel{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;position:absolute;bottom:100%;left:-2px;right:0;padding:1em;max-height:40vh;overflow-y:scroll;overflow-x:hidden;z-index:999998;background:#fff;border:inherit;border-bottom:solid #999 2px;border-top-left-radius:.5em;border-bottom-left-radius:.5em;font-size:0.8em}tw-debugger .panel:empty,tw-debugger .panel[hidden]{display:none}tw-debugger .panel-source,tw-debugger .panel-row-source{font-family:monospace;overflow-x:scroll;white-space:pre;-ms-flex-preferred-size:100%;flex-basis:100%}tw-debugger .panel-row-source{margin:5px 0}tw-debugger .panel-rows{width:100%;overflow-x:scroll}tw-debugger .panel-rows>*{display:table-row}tw-debugger .panel-rows>div:nth-of-type(2n){background:#EEE}tw-debugger .panel-row-buttons{text-align:right}tw-debugger .panel-variables .panel-rows:empty::before{content:"~ No variables ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-enchantments .panel-rows:empty::before{content:"~ No enchantments ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-errors .panel-rows:empty::before{content:"~ No errors... for now. ~";font-style:italic;color:#888;text-align:center}tw-debugger .panel-rows:empty+.panel-variables-bottom{display:none}tw-debugger .panel-storylets:not(.panel-exclusive) .storylet-exclusive,tw-debugger .panel-storylets:not(.panel-urgent) .storylet-urgent{display:none}tw-debugger .panel-variables-bottom{padding-top:5px}tw-debugger .enchantment-row{min-height:1.5em}tw-debugger .variable-path{opacity:0.4}tw-debugger .temporary-variable-scope,tw-debugger .enchantment-local{font-family:sans-serif;font-weight:normal;opacity:0.8;font-size:0.75em}tw-debugger .temporary-variable-scope:not(:empty)::before,tw-debugger .enchantment-local:not(:empty)::before{content:" in "}tw-debugger .variable-name,tw-debugger .enchantment-name{font-family:monospace;font-weight:bold}tw-debugger .variable-type{color:#444;font-weight:normal;text-overflow:ellipsis;overflow:hidden;max-width:10em}tw-debugger .error-row{display:table-row;background-color:rgba(230,101,204,0.3)}tw-debugger .error-row:nth-of-type(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .error-row>*{display:table-cell;padding:0.25em 0.5em}tw-debugger .error-row .error-message{cursor:help}tw-debugger .error-row .error-passage{color:#444}tw-debugger .storylet-row{background-color:rgba(201,233,222,0.3)}tw-debugger .storylet-row:nth-child(2n){background-color:rgba(128,203,178,0.3)}tw-debugger .storylet-row.storylet-closed{font-style:italic;opacity:0.4;background-color:rgba(217,217,217,0.3)}tw-debugger .storylet-row.storylet-closed:nth-child(2n){background-color:rgba(166,166,166,0.3)}.storylet-error tw-debugger .storylet-row{background-color:rgba(230,101,204,0.3)}.storylet-error tw-debugger .storylet-row:nth-child(2n){background-color:rgba(237,145,219,0.3)}tw-debugger .storylet-row .storylet-name,tw-debugger .storylet-row .storylet-value{display:inline-block;width:50%}tw-debugger .tabs{padding-bottom:0.5em}tw-debugger .tab{border-radius:0px 0px 0.5em 0.5em;border-top:none}tw-debugger .resizer{position:absolute;height:3em;border-left:2px solid #ccc;border-right:2px solid #ccc;top:10px;left:4px;width:8px;cursor:ew-resize}tw-dialog{z-index:999997;border:#fff solid 2px;padding:2em;color:#fff;background-color:#000;display:block}@media (min-width: 576px){tw-dialog{max-width:50vw}}tw-dialog input[type=text]{font-size:inherit;width:100%}tw-dialog-links{text-align:right;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end}tw-backdrop{z-index:999996;position:fixed;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.8);display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}tw-backdrop ~ tw-backdrop{display:none}tw-link,.link,tw-icon,.enchantment-clickblock{cursor:pointer}tw-link,.enchantment-link{color:#4169E1;font-weight:bold;text-decoration:none;transition:color 0.2s ease-in-out}tw-passage [style^="color"] tw-link:not(:hover),tw-passage [style*=" color"] tw-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-link:hover,tw-passage [style*=" color"][hover="true"] tw-link:hover,tw-passage [style^="color"] .enchantment-link:not(:hover),tw-passage [style*=" color"] .enchantment-link:not(:hover),tw-passage [style^="color"][hover="true"] .enchantment-link:hover,tw-passage [style*=" color"][hover="true"] .enchantment-link:hover{color:inherit}tw-link:hover,.enchantment-link:hover{color:#00bfff}tw-link:active,.enchantment-link:active{color:#DD4B39}.visited{color:#6941e1}tw-passage [style^="color"] .visited:not(:hover),tw-passage [style*=" color"] .visited:not(:hover),tw-passage [style^="color"][hover="true"] .visited:hover,tw-passage [style*=" color"][hover="true"] .visited:hover{color:inherit}.visited:hover{color:#E3E}tw-broken-link{color:#993333;border-bottom:2px solid #993333;cursor:not-allowed}tw-passage [style^="color"] tw-broken-link:not(:hover),tw-passage [style*=" color"] tw-broken-link:not(:hover),tw-passage [style^="color"][hover="true"] tw-broken-link:hover,tw-passage [style*=" color"][hover="true"] tw-broken-link:hover{color:inherit}.enchantment-mouseover{border-bottom:2px dashed #999}.enchantment-mouseout{border:rgba(64,149,191,0.6) 1px solid}.enchantment-mouseout:hover{background-color:rgba(175,197,207,0.75);border:transparent 1px solid;border-radius:0.2em}.enchantment-clickblock{width:100%;height:100%;display:block}.enchantment-clickblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;color:rgba(65,105,225,0.5);transition:color 0.2s ease-in-out}.enchantment-clickblock>:not(tw-enchantment):hover::after{color:rgba(0,191,255,0.5)}.enchantment-clickblock>:not(tw-enchantment):active::after{color:rgba(222,78,59,0.5)}.enchantment-clickblock>:not(tw-enchantment)::after{box-shadow:inset 0 0 0 0.5vmax}.enchantment-clickblock>tw-passage::after,.enchantment-clickblock>tw-sidebar::after{box-shadow:0 0 0 0.5vmax}.enchantment-mouseoverblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:2px dashed #999}.enchantment-mouseoutblock>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;border:rgba(64,149,191,0.6) 2px solid}.enchantment-mouseoutblock:hover>:not(tw-enchantment)::after{content:"";width:100%;height:100%;top:0;left:0;display:block;box-sizing:border-box;position:absolute;pointer-events:none;background-color:rgba(175,197,207,0.75);border:transparent 2px solid;border-radius:0.2em}tw-link.enchantment-button,.enchantment-link.enchantment-button,.enchantment-button:not(.enchantment-link) tw-link,.enchantment-button:not(.enchantment-link) .enchantment-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block}tw-dialog-links{padding-top:1.5em}tw-dialog-links tw-link{border-radius:16px;border-style:solid;border-width:2px;text-align:center;padding:0px 8px;display:block;display:inline-block}html{margin:0;height:100%;overflow-x:hidden}*,:before,:after{position:relative;box-sizing:inherit}body{margin:0;height:100%}tw-storydata{display:none}tw-story{display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;font:100% Georgia, serif;box-sizing:border-box;width:100%;min-height:100%;font-size:1.5em;line-height:1.5em;padding:5% 5%;overflow:hidden;background-color:#000;color:#fff}tw-story [style*=content-box] *{box-sizing:border-box}@media (min-width: 576px){tw-story{padding:5% 20%}}tw-story tw-consecutive-br{display:block;height:1.6ex;visibility:hidden}tw-story select{background-color:transparent;font:inherit;border-style:solid;padding:2px}tw-story select:not([disabled]){color:inherit}tw-story textarea{resize:none;background-color:transparent;font:inherit;color:inherit;border-style:none;padding:2px}tw-story input[type=checkbox]{transform:scale(1.5);margin:0 0.5em}tw-story tw-noscript{animation:appear 0.8s}tw-passage{display:block}tw-sidebar{text-align:center;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between}@media (min-width: 576px){tw-sidebar{left:-5em;width:3em;position:absolute;-ms-flex-direction:column;flex-direction:column}tw-enchantment[style*="width"]>tw-sidebar{width:inherit}}tw-icon{display:inline-block;margin:0.5em 0;font-size:66px;font-family:"Verdana",sans-serif}tw-icon[alt]{opacity:0.2}tw-icon[alt]:hover{opacity:0.4}tw-icon[data-label]::after{font-weight:bold;content:attr(data-label);font-size:20px;bottom:-20px;left:-50%;white-space:nowrap}tw-meter{display:block}tw-hook:empty,tw-expression:empty{display:none}tw-error{display:inline-block;border-radius:0.2em;padding:0.2em;font-size:1rem;cursor:help;white-space:pre-wrap}tw-error.error{background-color:rgba(223,58,190,0.6);color:#fff}tw-error.warning{background-color:rgba(223,140,58,0.6);color:#fff;display:none}.debug-mode tw-error.warning{display:inline}tw-error-explanation{display:block;font-size:0.8rem;line-height:1rem}tw-open-button,tw-folddown{cursor:pointer;line-height:0em;border-radius:1px;border:1px solid black;font-size:0.8rem;margin:0 0.4rem;padding:2px;white-space:pre}tw-folddown::after{content:"\25b6"}tw-folddown.open::after{content:"\25bc"}tw-open-button::after{content:"Open"}tw-notifier{border-radius:0.2em;padding:0.2em;font-size:1rem;background-color:rgba(223,182,58,0.4);display:none}.debug-mode tw-notifier{display:inline}tw-notifier::before{content:attr(message)}tw-colour{border:1px solid black;display:inline-block;width:1em;height:1em}tw-enchantment:empty{display:none}h1{font-size:3em}h2{font-size:2.25em}h3{font-size:1.75em}h1,h2,h3,h4,h5,h6{line-height:1em;margin:0.3em 0 0.6em 0}pre{font-size:1rem;line-height:initial}small{font-size:70%}big{font-size:120%}mark{color:rgba(0,0,0,0.6);background-color:#ff9}ins{color:rgba(0,0,0,0.6);background-color:rgba(255,242,204,0.5);border-radius:0.5em;box-shadow:0em 0em 0.2em #ffe699;text-decoration:none}center{text-align:center;margin:0 auto;width:60%}blink{text-decoration:none;animation:fade-in-out 1s steps(1, end) infinite alternate}tw-align{display:block}tw-columns{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.transition-in{animation:appear 0ms step-start}.transition-out{animation:appear 0ms step-end}[data-t8n^=dissolve].transition-in,[data-t8n=fade].transition-in{animation:appear .8s}[data-t8n^=dissolve].transition-out,[data-t8n=fade].transition-out{animation:appear .8s reverse}[data-t8n^=shudder].transition-in{display:inline-block !important;animation:shudder-in .8s}[data-t8n^=shudder].transition-out{display:inline-block !important;animation:shudder-in .8s reverse}[data-t8n^=rumble].transition-in{display:inline-block !important;animation:rumble-in .8s}[data-t8n^=rumble].transition-out{display:inline-block !important;animation:rumble-in .8s reverse}[data-t8n^=pulse].transition-in{animation:pulse .8s;display:inline-block !important}[data-t8n^=pulse].transition-out{animation:pulse .8s reverse;display:inline-block !important}[data-t8n^=zoom].transition-in{animation:zoom-in .8s;display:inline-block !important}[data-t8n^=zoom].transition-out{animation:zoom-in .8s reverse;display:inline-block !important}[data-t8n^=blur].transition-in{animation:blur .8s;display:inline-block !important}[data-t8n^=blur].transition-out{animation:blur .8s reverse;display:inline-block !important}[data-t8n^=slideleft].transition-in{animation:slide-left .8s;display:inline-block !important}[data-t8n^=slideleft].transition-out{animation:slide-right .8s reverse;display:inline-block !important}[data-t8n^=slideright].transition-in{animation:slide-right .8s;display:inline-block !important}[data-t8n^=slideright].transition-out{animation:slide-left .8s reverse;display:inline-block !important}[data-t8n^=slideup].transition-in{animation:slide-up .8s;display:inline-block !important}[data-t8n^=slideup].transition-out{animation:slide-down .8s reverse;display:inline-block !important}[data-t8n^=slidedown].transition-in{animation:slide-down .8s;display:inline-block !important}[data-t8n^=slidedown].transition-out{animation:slide-up .8s reverse;display:inline-block !important}[data-t8n^=fadeleft].transition-in{animation:fade-left .8s;display:inline-block !important}[data-t8n^=fadeleft].transition-out{animation:fade-right .8s reverse;display:inline-block !important}[data-t8n^=faderight].transition-in{animation:fade-right .8s;display:inline-block !important}[data-t8n^=faderight].transition-out{animation:fade-left .8s reverse;display:inline-block !important}[data-t8n^=fadeup].transition-in{animation:fade-up .8s;display:inline-block !important}[data-t8n^=fadeup].transition-out{animation:fade-down .8s reverse;display:inline-block !important}[data-t8n^=fadedown].transition-in{animation:fade-down .8s;display:inline-block !important}[data-t8n^=fadedown].transition-out{animation:fade-up .8s reverse;display:inline-block !important}[data-t8n^=flicker].transition-in{animation:flicker .8s}[data-t8n^=flicker].transition-out{animation:flicker .8s reverse}
 </style>
 </head>
 <body>
-<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Be Good to Yrself (OG).</tw-noscript></noscript></tw-story>
-<tw-storydata name="Be Good to Yrself (OG)" startnode="1" creator="Twine" creator-version="2.3.14" ifid="5FEF9CCF-9598-4ED5-BA6B-4CEF64FF0A18" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Entry" tags="" position="220,300" size="100,100">This is meant to be an interactive flow chart for people who struggle with self care, executive dysfunction, and/or who have trouble reading internal signals. It&#39;s designed to take as much of the weight off of you as possible, so each decision is very easy and doesn&#39;t require much judgment.
+<tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Be Good to Yrself (Dee).</tw-noscript></noscript></tw-story>
+<tw-storydata name="Be Good to Yrself (Dee)" startnode="1" creator="Twine" creator-version="2.3.14" ifid="5FEF9CCF-9598-4ED5-BA6B-4CEF64FF0A18" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Entry" tags="" position="218.66666666666666,298.99999999999994" size="100,100">Hey, welcome back! I&#39;m glad you&#39;re taking care of yourself. 
 
-Set aside some time—maybe an hour total—to allow yourself to work through each step. Don&#39;t rush or skip ahead—just follow the directions. Self care is important, and you deserve to devote some time to it.
+I know you&#39;ve done this before, but try to resist the urge to rush or skip ahead. Just follow the directions. Self-care is important, and you deserve to devote some time to it.
 
-You may want to go through this routine as soon as you wake up, as a preventative measure.
-
-[[I&#39;m ready for the first question.-&gt;Food]]</tw-passagedata><tw-passagedata pid="2" name="Food" tags="" position="483,284" size="100,100">Have you eaten in the last four hours?
+[[I&#39;m ready for the first question.-&gt;Food]]</tw-passagedata><tw-passagedata pid="2" name="Food" tags="" position="483.6666666666667,284" size="100,100">Have you eaten in the last four hours?
 
 [[Yes, I&#39;m comfortable with how much I&#39;ve eaten.-&gt;Water]]
-[[I could probably use a snack...-&gt;Snack]]
-[[No, I need a meal.-&gt;Meal]]</tw-passagedata><tw-passagedata pid="3" name="Snack" tags="" position="374,414" size="100,100">I&#39;m glad you recognized that you could use some snack food!
+[[I could probably use a snack.-&gt;Snack]]
+[[No, I need a meal.-&gt;Meal]]</tw-passagedata><tw-passagedata pid="3" name="Snack" tags="" position="374.33333333333337,412.3333333333333" size="100,100">A snack is a great idea.
 
-You usually at least one of these foods around:
+You usually at least one of these quick foods around:
 * A protein bar or a Soylent shake
+* Protein shake ingredients
 * A bagel with vegan cream cheese
 * A bowl of cereal or granola
 * Pistachios or other mixed nuts
 * A frozen burrito
 * Quick oats
 
-[[Okay, I finished my snack.-&gt;Water]]</tw-passagedata><tw-passagedata pid="4" name="Meal" tags="" position="669,310" size="100,100">You haven&#39;t eaten in a little while, and your body needs fuel. It&#39;s time for a meal.
+[[Okay, I finished my snack.-&gt;Water]]</tw-passagedata><tw-passagedata pid="4" name="Meal" tags="" position="669.3333333333334,308.66666666666663" size="100,100">You haven&#39;t eaten in a little while, and your body needs fuel. It&#39;s time for a meal.
 
-If there&#39;s a specific food you want, it&#39;s okay to eat it! You know what your body needs and what will help you feel good.
+Let&#39;s take some time to find some food, and check back in after you&#39;ve eaten.
 
-[[I finished my meal, and I&#39;m ready for the next step.-&gt;Water]]
-[[I need some help deciding what to eat!-&gt;Help]]</tw-passagedata><tw-passagedata pid="5" name="Help" tags="" position="830,341" size="100,100">Making a meal is hard for you right now, and that&#39;s okay! Everybody struggles with cooking sometimes.
+[[I need some help deciding what to eat!-&gt;Help]]
+[[Okay, I&#39;ve finished my meal and I&#39;m ready for the next step.-&gt;Water]]</tw-passagedata><tw-passagedata pid="5" name="Help" tags="" position="830.6666666666667,341.66666666666663" size="100,100">Making a meal is hard for you right now, and that&#39;s okay! Everybody struggles with cooking sometimes.
+
+If you&#39;re too hungry to think straight, a quick snack will help until you&#39;ve been able to eat a full meal.
 
 You have some options:
 * You can cook a meal for yourself.
-* You might have leftovers or ready-made meals in the fridge.
+* You can eat leftovers or ready-made meals if you have them.
 * You can get take-out or delivery.
 
 If you&#39;re going to cook on your own, you have to decide what to make. A friend, partner, or family member can help with this. Here are some ideas for easy foods you can eat right now:
@@ -64,188 +65,156 @@ Take-out, delivery, and restaurants are a little more expensive than cooking on 
 * Los Gorditos
 * Kure Juice Bar
 
-[[Okay, I have some food in my stomach. Time for the next question!-&gt;Water]]</tw-passagedata><tw-passagedata pid="6" name="Water" tags="" position="588,510" size="100,100">Assess your thirst. Is your water bottle empty? You should probably go fill it.
+Take some time figuring out your meal, and check back in after you&#39;ve eaten.
 
-Do you have kombucha? Would a cup of tea feel good?
+[[Okay, I have some food in my stomach and I&#39;m ready for the next question.-&gt;Water]]</tw-passagedata><tw-passagedata pid="6" name="Water" tags="" position="588.3333333333334,510.6666666666667" size="100,100">Assess your thirst. Is your water bottle empty? You should probably go fill it, or ask for help filling it.
+
+Do you have kombucha? Coconut water? Would a cup of tea feel good?
 
 Take a deep sip of your drink. Drink until you feel like you can&#39;t drink more.
 
-[[Okay, I did it.-&gt;Sleep]]</tw-passagedata><tw-passagedata pid="7" name="Sleep" tags="" position="580,661" size="100,100">Can you take a guess at how many hours you&#39;ve slept out of the last twenty-four?
+[[Okay, I did it.-&gt;Sleep]]</tw-passagedata><tw-passagedata pid="7" name="Sleep" tags="" position="580.3333333333334,661.6666666666666" size="100,100">Can you take a guess at how many hours you&#39;ve slept out of the last twenty-four?
 
-If you had less than eight hours, and/or woke up frequently, and/or had nightmares last night it might help you to take a nap.
+If you had less than eight hours, woke up frequently, and/or had nightmares last night it might help you to take a nap.
 
 [[I am well-rested. Next question!-&gt;Pain]]
-[[I need a nap.-&gt;Nap]]</tw-passagedata><tw-passagedata pid="8" name="Pain" tags="" position="411,714" size="100,100">Are you in (physical) pain?
+[[I need a nap.-&gt;Nap]]</tw-passagedata><tw-passagedata pid="8" name="Pain" tags="" position="411,712.6666666666666" size="100,100">Are you in physical pain? Achy? Sore?
 
 [[No, my body feels fine.-&gt;Discomfort]]
-[[Yes, something hurts.-&gt;Ow]]</tw-passagedata><tw-passagedata pid="9" name="Nap" tags="" position="577,813" size="100,100">Take a nap. You can finish this self-care guide when you wake up.
+[[Yes, something hurts.-&gt;Ow]]</tw-passagedata><tw-passagedata pid="9" name="Nap" tags="" position="577,813.9999999999999" size="100,100">Take a nap. You can finish this self-care guide when you wake up.
 
-Ideally, let yourself sleep naturally, and sleep until you wake up. Obviously, this isn&#39;t always possible. Otherwise, set an alarm for yourself, with plenty of time to wake up and get yourself together between your nap and your responsibilities.
+Ideally, let yourself sleep naturally, and sleep until you wake up. If that isn&#39;t possible right now, set an alarm for yourself with plenty of time to wake up and get yourself together between your nap and your responsibilities.
 
-[[Okay, I&#39;m well-rested now.-&gt;Pain]]</tw-passagedata><tw-passagedata pid="10" name="Discomfort" tags="" position="272,810" size="100,100">Is something about your environment distressing or uncomfortable?
+[[Okay, I&#39;m well-rested now.-&gt;Pain]]</tw-passagedata><tw-passagedata pid="10" name="Discomfort" tags="" position="239.33333333333337,914" size="100,100">Is something about your environment distressing or uncomfortable? Are there too many smells? Do you feel claustrophobic?
 
-[[Yes, my surroundings are less than ideal.-&gt;Environment]]
-[[No, it seems fine here to me.-&gt;Cleanliness]]</tw-passagedata><tw-passagedata pid="11" name="Ow" tags="" position="243,632" size="100,100">For aches and pains, take an ibuprofen. You may also want to apply a heating pad or a cold pack on whatever hurts.
+[[Yes, my surroundings are less than ideal.-&gt;Environment cleanliness]]
+[[No, it seems fine here to me.-&gt;Body]]</tw-passagedata><tw-passagedata pid="11" name="Ow" tags="" position="243.66666666666666,632.3333333333333" size="100,100">For aches and pains, take an ibuprofen. You may also want to apply a heating pad or a cold pack on whatever hurts.
 
 If you have a stomach ache, try taking a Tums tablet. Hot tea may also help.
 
-Be nice to your body, and try to do &quot;replace&quot; the unpleasant pain with some pleasant alternative sensations, like good smells and pleasurable textures. You can:
+Be nice to your body, and try to soothe with some pleasant alternative sensations, like good smells and pleasurable textures. You can:
 * Light a candle 
 * Take a bath
 * Smoke some CBD
 * Cuddle with Prismo or with stuffed animals
 * Heat up your warming plushie and hug it
 * Cover yourself in your big fuzzy blanket
+* Be a baby
 
-[[I am all taken care of.-&gt;Discomfort]]</tw-passagedata><tw-passagedata pid="12" name="Environment" tags="" position="130,949" size="100,100">Are your surroundings the right temperature?
+[[I am all taken care of.-&gt;Discomfort]]</tw-passagedata><tw-passagedata pid="12" name="Environment cleanliness" tags="" position="330.33333333333337,1076.3333333333333" size="100,100">It&#39;s hard to feel okay in an environment that is unfriendly for whatever reason. If your surroundings aren&#39;t clean, set a timer for five minutes and take care of the biggest problems, like leftover food, pet messes, or dirty clothes.
 
-[[I&#39;m too cold.-&gt;Cold]]
-[[I&#39;m too hot.-&gt;Hot]]
-[[I&#39;m just right.-&gt;Cleanliness]]</tw-passagedata><tw-passagedata pid="13" name="Cleanliness" tags="" position="449,951" size="100,100">Are your surroundings dirty or smelly?
+Try lighting a candle and opening a window. Smell some lavender, or balsam fir. Breathe. Exhale. 
 
-[[Yes, it&#39;s gross.-&gt;Environment cleanliness]]
-[[No, it&#39;s fine.-&gt;Safety]]</tw-passagedata><tw-passagedata pid="14" name="Cold" tags="" position="251,1103" size="100,100">If you&#39;re too cold, you can try putting on some warm clothes, using a space heater, turning up the heat in your home, putting on a blanket, and/or snuggling with a pet or another person.
+[[Okay, I cleaned up a little!-&gt;Body]]</tw-passagedata><tw-passagedata pid="13" name="Body" tags="" position="738.3333333333333,1013" size="100,100">Does your body or bedding feel uncomfortable, sweaty, or dirty?
 
-[[I&#39;m not cold anymore-&gt;Cleanliness]]</tw-passagedata><tw-passagedata pid="15" name="Hot" tags="" position="1,1098" size="100,100">If you&#39;re too hot, you can try putting on cooler clothes, turning on a fan, or turning up the AC in your house.
+[[Yes, I feel gross or unclean.-&gt;Body cleanliness]]
+[[No, I feel fine.-&gt;Do you know?]]</tw-passagedata><tw-passagedata pid="14" name="Do you know?" tags="" position="626.6666666666667,1174.6666666666667" size="100,100">Now that we&#39;ve taken care of the physical reasons that you&#39;re not feeling well, let&#39;s try to explore the emotional ones.
 
-[[Okay, I fixed it.-&gt;Cleanliness]]</tw-passagedata><tw-passagedata pid="16" name="Environment cleanliness" tags="" position="510,1096" size="100,100">It&#39;s hard to feel okay in an environment that is unfriendly for whatever reason. If your surroundings aren&#39;t clean, set a timer for five minutes and take care of the biggest problems, like leftover food, pet messes, or dirty clothes.
-
-Chores can be scary and exhausting, but that&#39;s not what we&#39;re doing here. We&#39;re just taking a little five-minute clean up to make ourselves and our homes happier!
-
-[[Okay, I cleaned up a little!-&gt;Safety]]</tw-passagedata><tw-passagedata pid="17" name="Safety" tags="" position="691,1031" size="100,100">Do you feel unsafe because of the people, or lack of people, in your surroundings?
-
-[[Yes, there are too many people here, or people I don&#39;t feel comfortable with.-&gt;Overwhelm]]
-[[I am alone and I don&#39;t like it.-&gt;Alone]]
-[[No, I&#39;m good.-&gt;Body]]</tw-passagedata><tw-passagedata pid="18" name="Overwhelm" tags="" position="718,1184" size="100,100">If you can, try to remove yourself from situations that are overwhelming or feel unsafe. If you can&#39;t relocate entirely, take frequent breaks, or tune out with headphones.
-
-[[I did my best. On to the next step.-&gt;Body]]</tw-passagedata><tw-passagedata pid="19" name="Alone" tags="" position="872,907" size="100,100">Being alone can feel really scary and unsafe. In reality, if you take basic precautions, you&#39;re almost certainly fine! However, getting a friend, making a phone or Skype call, playing with a pet, and/or turning on the TV or music can help.
-
-[[I reached out to someone and I&#39;m feeling better. I&#39;m ready for the next step.-&gt;Body]]</tw-passagedata><tw-passagedata pid="20" name="Body" tags="" position="1061,1111" size="100,100">Does your body feel uncomfortable, sweaty, or dirty?
-
-[[Yes, I feel icky, gross, or unclean.-&gt;Body cleanliness]]
-[[No, I feel fine.-&gt;Do you know?]]</tw-passagedata><tw-passagedata pid="21" name="Do you know?" tags="" position="971,1248" size="100,100">Now that we&#39;ve taken care of the physical reasons that you&#39;re not feeling well, we&#39;re going to deal with the emotional ones.
-
-Obviously, this is a general guide, and can&#39;t pinpoint your exact problem. But troubleshooting is a good practice, and we&#39;re going to do our best together.
-
-Do you know why you&#39;re in a bad mood, or not feeling well emotionally? (Remember, any answer is okay!)
+Do you know why you&#39;re hurting?
 
 [[Yes, there&#39;s something on my mind.-&gt;I do know]]
-[[No, I don&#39;t know the reason.-&gt;I don&#39;t know]]</tw-passagedata><tw-passagedata pid="22" name="Body cleanliness" tags="" position="1278,1142" size="100,100">Do you have the energy and ability to take a shower?
+[[I don&#39;t know the reason and need to explore.-&gt;I don&#39;t know]]</tw-passagedata><tw-passagedata pid="15" name="Body cleanliness" tags="" position="1006.6666666666666,1052.9999999999998" size="100,100">Do you have the energy and ability to take a shower? Maybe that would feel nice.
 
 [[Yes, I&#39;ll take a shower.-&gt;Take a shower]]
-[[No, I need another solution.-&gt;No, I need another solution.]]</tw-passagedata><tw-passagedata pid="23" name="Take a shower" tags="" position="1121,1441" size="100,100">Take a shower and get dressed in new clothes afterwards. You&#39;ll feel much better!
+[[No, I need another solution.-&gt;No, I need another solution.]]</tw-passagedata><tw-passagedata pid="16" name="Take a shower" tags="" position="941.6666666666667,1284.6666666666667" size="100,100">Why don&#39;t you take a shower and put on some comfortable clothes. Come back to this when you feel ready.
 
-[[I&#39;ve done that and I&#39;m ready for the next step.-&gt;Do you know?]]</tw-passagedata><tw-passagedata pid="24" name="No, I need another solution." tags="" position="1285,1314" size="100,100">If you are unable to take a shower, here are some things to do instead:
--Wash your face
--Put on lotion
--Change your clothes
--Use dry shampoo
--Whatever physical self-care activity you like best!
+[[I&#39;ve done that and I&#39;m ready for the next step.-&gt;Do you know?]]</tw-passagedata><tw-passagedata pid="17" name="No, I need another solution." tags="" position="1158.3333333333335,1199.6666666666665" size="100,100">If you are unable to take a shower, here are some things to do instead:
+* Wash your face
+* Change your clothes
+* Tie up your hair
 
-[[I&#39;m clean and I&#39;m ready for the next step.-&gt;Do you know?]]</tw-passagedata><tw-passagedata pid="25" name="I do know" tags="" position="918,1439" size="100,100">It sounds like there&#39;s something on your mind! We&#39;re going to do our best to take care of it.
+[[I&#39;m clean and I&#39;m ready for the next step.-&gt;Do you know?]]</tw-passagedata><tw-passagedata pid="18" name="I do know" tags="" position="918.3333333333334,1439.6666666666665" size="100,100">It sounds like there&#39;s something on your mind! We&#39;re going to do our best to take care of it.
 
-Set a timer for 15 minutes, and work on a solution. If it&#39;s something you can change, then great! If not, do your best to reach out to someone and talk about it.
+Set a timer for fifteen minutes, and work on getting your feelings out.
 
-Remember, 15 minutes and only 15! You can go back to whatever it is after we&#39;re done working through this together. We&#39;re just taking baby steps in the right direction.
+Physically writing in a journal, typing in your favorite text editor, or talking out loud about what you&#39;re feeling while recording an audio log are great ways to get these things out of your mind.
 
-[[Okay, I did my best.-&gt;Anxiety]]</tw-passagedata><tw-passagedata pid="26" name="I don&#39;t know" tags="" position="795,1352" size="100,100">Sometimes, we don&#39;t know the source of our bad feelings, and that&#39;s okay. We&#39;re gonna work through this together!
+Remember that the hardest thing to do is start. Your body will speak if you can make space to listen.
 
-[[Okay!-&gt;Anxiety]]</tw-passagedata><tw-passagedata pid="27" name="Anxiety" tags="" position="739,1595" size="100,100">Do you feel anxious, nervous, keyed-up, paranoid, scared, or on edge?
+[[Okay, I did my best.-&gt;Anxiety]]</tw-passagedata><tw-passagedata pid="19" name="I don&#39;t know" tags="" position="640,1360.3333333333333" size="100,100">Sometimes, we don&#39;t know the source of our bad feelings, and that&#39;s okay. We&#39;re gonna work through this together!
+
+[[Okay!-&gt;Anxiety]]</tw-passagedata><tw-passagedata pid="20" name="Anxiety" tags="" position="712.3333333333334,1526.6666666666665" size="100,100">Do you feel anxious, nervous, keyed-up, paranoid, scared, or on edge?
 
 [[Yes, I feel anxious about something specific.-&gt;Specific]]
 [[Yes, but I don&#39;t know why.-&gt;Non-specific]]
-[[No, I don&#39;t feel very anxious.-&gt;Triggered]]
-[[I was feeling anxious, but I did my best to take care of myself. I&#39;m ready for the next question.-&gt;Triggered]]</tw-passagedata><tw-passagedata pid="28" name="Specific" tags="" position="594,1683" size="100,100">You&#39;re feeling anxious about something specific. That&#39;s okay! Set a timer for 15 minutes and do something to take care of that worry. Maybe chip away at a task that seems insurmountable. You can do it!
+[[No, I don&#39;t feel very anxious.-&gt;Dissociated]]</tw-passagedata><tw-passagedata pid="21" name="Specific" tags="" position="650.6666666666667,1683.3333333333333" size="100,100">You&#39;re feeling anxious about something specific. That&#39;s okay! Set a timer for fifteen minutes and do something to take care of that worry. Maybe chip away at a task that seems insurmountable. You can do it!
 
 [[I&#39;d like to try some grounding exercises too.-&gt;Grounding exercises]]
-[[I feel better. Next question!-&gt;Triggered]]</tw-passagedata><tw-passagedata pid="29" name="Non-specific" tags="" position="449,1641" size="100,100">You feel generally anxious, but you don&#39;t know why. That&#39;s okay!
+[[I feel better. Next question!-&gt;Dissociated]]</tw-passagedata><tw-passagedata pid="22" name="Non-specific" tags="" position="442.3333333333333,1611.6666666666665" size="100,100">You feel generally anxious, but you don&#39;t know why. That&#39;s okay!
 
-[[I&#39;d like to try some grounding exercises.-&gt;Grounding exercises]]</tw-passagedata><tw-passagedata pid="30" name="Triggered" tags="" position="905,1726" size="100,100">Do you feel triggered? Are you having flashbacks? Is something traumatic or upsetting from the past weighing on your mind? Did you have a vivid nightmare?
+[[Why don&#39;t we try some grounding exercises?-&gt;Grounding exercises]]</tw-passagedata><tw-passagedata pid="23" name="Grounding exercises" tags="" position="509,1855" size="100,100">Here are some ideas for grounding activities:
+* Take deep, calm breaths.
+* Notice and list things in your surroundings.
+* Expose yourself to strong, pleasant sensations, like a pleasing smell or a favorite blanket.
+* Breathe in through your nose, hold it for a moment, then exhale forcefully through your mouth. Try to expel all the air from your lungs in one quick exhale. 
+* With every normal exhale, hum a low tone while trying to make your sternum resonate as much as possible. (Om chanting)
+* Say out loud your name, your age, the date, and your location. List some things you&#39;ve done today, or are going to do. 
+* Splash water on your face or run your hands under the faucet.
+* Do a body scan meditation, or pay close attention to each of your body parts one by one.
+* Make tea. Feel the warmth of it in your hands, and the taste as you sip it calmly.
+* Listen to music with headphones.
+* Do a Tarot reading.
+* Write in your journal.
+* Take a mindful walk, either inside or outside. Pay close attention to your body and your surroundings.
+* Wiggle around. Dance. Stretch. Be silly and active for a few minutes.
+* Any other favorite grounding technique you&#39;ve heard of or can think of. There&#39;s nothing wrong with experimenting!
 
-[[Yes, I feel triggered.-&gt;I am triggered]]
-[[No, I&#39;m not feeling triggered.-&gt;Dissociated]]
-[[I was feeling triggered, but I did my best to take care of myself. I&#39;m ready for the next question.-&gt;Dissociated]]</tw-passagedata><tw-passagedata pid="31" name="Grounding exercises" tags="" position="597,1883" size="100,100">Here are some ideas for grounding activities:
-
--Take deep, calm breaths.
--Notice and list things in your surroundings.
--Expose yourself to strong, pleasant sensations, like a pleasing smell or a favorite blanket.
--Say out loud your name, your age, the date, and your location. List some things you&#39;ve done today, or are going to do.
--Splash water on your face or run your hands under the faucet.
--Do a body scan meditation, or pay close attention to each of your body parts one by one.
--Make tea. Feel the warmth of it in your hands, and the taste as you sip it calmly.
--Listen to music.
--Play a categories game, and name some types of dogs, or clothing items, or gemstones, or countries, or anything else you can think of.
--Write in your journal.
--Take a mindful walk, either inside or outside. Pay close attention to your body and your surroundings.
--Squiggle. Wiggle around. Dance. Stretch. Be silly and active for a few minutes.
--Any other favorite grounding technique you&#39;ve heard of or can think of. There&#39;s nothing wrong with experimenting!
-
-[[Okay, I did one or more of these things and I&#39;m ready to move on.-&gt;Triggered]]</tw-passagedata><tw-passagedata pid="32" name="I am triggered" tags="" position="840,1933" size="100,100">If you&#39;re feeling triggered, see if there&#39;s a practical action you can take to lessen your distress. Can you block that unsafe person from your Facebook, for example?
-
-If not, reach out and tell someone safe how you&#39;re feeling. Just express yourself! Human contact works wonders when you&#39;re not feeling well emotionally.
-
-Remember that you&#39;re here in the present, and nothing from your past can hurt you. If you like, you may want to try some grounding exercises to reinforce that idea.
-
-[[Okay, I&#39;m ready for the next question.-&gt;Dissociated]]
-[[I&#39;d like to try some grounding exercises.-&gt;Grounding exercises]]</tw-passagedata><tw-passagedata pid="33" name="Dissociated" tags="" position="1204,1854" size="100,100">Are you feeling dissociated, depersonalized, or derealized? Do you feel far away, foggy, or unreal? Are you not sure who you are?
+[[Okay, I did one or more of these things and I&#39;m ready to move on.-&gt;Dissociated]]</tw-passagedata><tw-passagedata pid="24" name="Dissociated" tags="" position="886.0000000000001,1852.6666666666665" size="100,100">Are you feeling dissociated, depersonalized, or derealized? Do you feel far away, foggy, or unreal? 
 
 [[Yes, I&#39;m dissociated.-&gt;Grounding exercises]]
-[[No, I don&#39;t feel like that.-&gt;Depressed]]
-[[I was feeling dissociated, but I did my best to take care of myself. I&#39;m ready for the next question.-&gt;Depressed]]</tw-passagedata><tw-passagedata pid="34" name="Depressed" tags="" position="1100,2046" size="100,100">Are you feeling depressed, sad, or upset?
+[[No, I don&#39;t feel like that.-&gt;Depressed]]</tw-passagedata><tw-passagedata pid="25" name="Depressed" tags="" position="1360.3333333333337,1950" size="100,100">Are you feeling depressed, sad, or hurt?
 
-[[Yes, I&#39;m feeling depressed.-&gt;Depression antidotes]]
-[[No, I&#39;m not very depressed.-&gt;Lonely]]</tw-passagedata><tw-passagedata pid="35" name="Depression antidotes" tags="" position="945,2190" size="100,100">Feeling depressed isn&#39;t fun, but it doesn&#39;t last forever! Don&#39;t be mad or disappointed with yourself for feeling depressed.
+[[Yes, I&#39;m feeling depressed.-&gt;Fun]]
+[[No, I&#39;m not very depressed.-&gt;Foggy]]</tw-passagedata><tw-passagedata pid="26" name="Loneliness antidotes" tags="" position="1079.6666666666665,2270" size="100,100">Everybody feels lonely sometimes. If you&#39;re feeling lonely, there&#39;s ways to reach out to people! 
 
-Take 15 minutes and accomplish something small, like loading the dishwasher or making a friendship bracelet. You are not a failure, and your situation is not hopeless! You are a superhero, even if it doesn&#39;t feel like it.
+You can talk to someone in your house, or call someone on the phone. You can also use texting or other message platforms to speak to someone. You may want to talk about how you&#39;re feeling, or you may not. Anything you want to talk about is okay. 
 
-[[Okay, I&#39;ve done my best to take care of myself and I&#39;m ready for the next question.-&gt;Lonely]]</tw-passagedata><tw-passagedata pid="36" name="Lonely" tags="" position="1287,2145" size="100,100">Are you feeling lonely or in need of attention?
+It may take some time to untangle what you&#39;re feeling.
 
-[[Yes, I&#39;m feeling lonely.-&gt;Loneliness antidotes]]
-[[No,  I&#39;m not very lonely. Next question!-&gt;Foggy]]</tw-passagedata><tw-passagedata pid="37" name="Loneliness antidotes" tags="" position="1154,2286" size="100,100">Everybody feels lonely sometimes. If you&#39;re feeling lonely, there&#39;s ways to reach out to people!
-
-You can talk to someone in your house, or call someone on the phone. You can also use texting or Facebook messenger to speak to someone. You may want to talk about how you&#39;re feeling, or you may not. Anything you want to talk about is okay!
-
-If that isn&#39;t or doesn&#39;t seem possible, you can post a general message on Facebook, Tumblr, Vent, or another internet service, about whatever you want!
-
-[[Okay, I did my best to take care of myself and I&#39;m ready for the next question.-&gt;Foggy]]</tw-passagedata><tw-passagedata pid="38" name="Foggy" tags="" position="1402,2303" size="100,100">Are you feeling foggy?
+[[Okay, I did my best to take care of myself and I&#39;m ready for the next question.-&gt;Foggy]]</tw-passagedata><tw-passagedata pid="27" name="Foggy" tags="" position="1060.3333333333333,2084.9999999999995" size="100,100">Are you feeling foggy?
 
 [[Yes, I feel foggy.-&gt;Exercise]]
-[[No, my head feels pretty clear.-&gt;Pets]]</tw-passagedata><tw-passagedata pid="39" name="Exercise" tags="" position="995,2488" size="100,100">If you are feeling foggy, you might need some exercise.
+[[No, my head feels pretty clear.-&gt;Pets]]</tw-passagedata><tw-passagedata pid="28" name="Exercise" tags="" position="864.0000000000001,2300.0000000000005" size="100,100">If you are feeling foggy, you might need some exercise.
 
 Do you have the energy and ability to go for a walk?
 
 [[Yes, a walk sounds great.-&gt;Walk]]
-[[No, a walk would be too much for me.-&gt;No walk]]</tw-passagedata><tw-passagedata pid="40" name="Pets" tags="" position="1592,2398" size="100,100">Do you have pets?
+[[No, a walk would be too much for me.-&gt;No walk]]</tw-passagedata><tw-passagedata pid="29" name="Pets" tags="" position="1320.3333333333333,2289.9999999999995" size="100,100">Do you have pets?
 
 [[Yes, I have pets.-&gt;Play with pets]]
-[[No pets for me.-&gt;Fun]]</tw-passagedata><tw-passagedata pid="41" name="Walk" tags="" position="970,2681" size="100,100">Walks are really good for both our bodies and our minds. Take a walk of whatever length you choose! You&#39;re not trying to burn calories or get to a particular destination; you&#39;re just taking a pleasant stroll. Enjoy it!
+[[No pets for me.-&gt;Fun]]</tw-passagedata><tw-passagedata pid="30" name="Walk" tags="" position="734,2553.333333333333" size="100,100">Walks are really good for both our bodies and our minds. Take a walk of whatever length you choose! You&#39;re not trying to burn calories or get to a particular destination; you&#39;re just taking a pleasant stroll. 
 
-[[Okay, I am back from my walk and I&#39;m ready for the next question.-&gt;Pets]]</tw-passagedata><tw-passagedata pid="42" name="No walk" tags="" position="1172,2671" size="100,100">If you can&#39;t take a walk, that&#39;s okay!
+Try to pay attention to your surroundings, or listen to music and feel it deeply.
+
+[[Okay, I am back from my walk and I&#39;m ready for the next question.-&gt;Pets]]</tw-passagedata><tw-passagedata pid="31" name="No walk" tags="" position="992.3333333333335,2558.333333333333" size="100,100">If you can&#39;t take a walk, that&#39;s okay!
 
 Here are some alternatives:
--Jumping jacks
--Bouncing on the bed
--Dancing
--Push ups or sit ups, if you like doing them
--Walking up and down the stairs
--Yoga
--Wiggling, squirming, jiggling around; being silly and active and having fun!
+* Jumping jacks
+* Bouncing on the bed
+* Dancing
+* Push-ups or sit-ups
+* Walking up and down the stairs
+* Yoga
+* Wiggling, squirming, jiggling around; being silly and active and having fun!
 
 If none of those are or seem possible, just sit outside for some fresh air!
 
-[[Okay, I did some exercise to the best of my ability. I&#39;m ready for the next question.-&gt;Pets]]</tw-passagedata><tw-passagedata pid="43" name="Play with pets" tags="" position="1448,2605" size="100,100">Playing with pets can be a great way to take the edge off when you&#39;re not feeling well. It doesn&#39;t matter what kind of pet you have, just take some time to interact with them. Pet your cat, take your dog outside, feed your fish, hug your lizard...
+[[Okay, I did some exercise to the best of my ability. I&#39;m ready for the next question.-&gt;Pets]]</tw-passagedata><tw-passagedata pid="32" name="Play with pets" tags="" position="1297,2505" size="100,100">Playing with pets can be a great way to take the edge off when you&#39;re not feeling well. It doesn&#39;t matter what kind of pet you have, just take some time to interact with them.
 
-[[Good idea! I&#39;m ready for the next question.-&gt;Fun]]</tw-passagedata><tw-passagedata pid="44" name="Fun" tags="" position="1705,2605" size="100,100">Take half an hour and do whatever you want to do right now. This can be anything: crafts, watching TV, laying on the couch, taking a walk, playing Farmville... your choices are literally endless!
+[[Good idea! I&#39;m ready for the next question.-&gt;Fun]]</tw-passagedata><tw-passagedata pid="33" name="Fun" tags="" position="1545.3333333333335,2433.3333333333335" size="100,100">You need a break! Take half an hour and do whatever you want to do right now with goals of self-soothing and self-regulating.
 
-Obviously, don&#39;t do anything that&#39;s bad for you, like feeding addictions or harming yourself or others.
+Here are some ideas: 
+* Try painting?
+* Watch a show or movie
+* Play Breath of the Wild, or a game on Steam
+* Read a book
+* Etc.
 
-[[I did 30 minutes of fun and now I&#39;m ready to move on to the next step.-&gt;Reassess]]</tw-passagedata><tw-passagedata pid="45" name="Reassess" tags="" position="1580,2835" size="100,100">We&#39;ve reached the end of this self care guide.
+[[I did half an hour of fun and now I&#39;m ready to move on to the next step.-&gt;Reassess]]</tw-passagedata><tw-passagedata pid="34" name="Reassess" tags="" position="1557,2658.3333333333335" size="100,100">We&#39;ve reached the end of this self-care guide.
 
-It&#39;s time to reassess. Maybe now that you&#39;ve done all this self care, you feel better-- great! Maybe you don&#39;t, and that&#39;s okay too. But hopefully you&#39;ve cleared things up and you know what to do next to take care of yourself.
+It&#39;s time to reassess and reflect. How are you feeling? Do you have a better idea of what you need? 
 
-You deserve self care, so even if it&#39;s hard, do your best!
-
-Good luck!</tw-passagedata></tw-storydata>
+You&#39;re doing such a good job. </tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
